@@ -10,19 +10,7 @@ use Data::Dumper;
 use WebService::ClinicalTrialsdotGov::Request;
 use WebService::ClinicalTrialsdotGov::Reply;
 
-=head1 NAME
-
-   WebService::ClinicalTrialsdotGov - Wrapper around the clinicaltrials.gov API
-
-=head1 VERSION
-
-Version 0.01
-
-=head1 DESCRIPTION
-
-=cut
-
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my $RH_VALID_MODES = {
    'search'   => 1,
@@ -68,6 +56,9 @@ my $RH_DEFAULT_PARAMS = {
    
 };
 
+=head1 NAME
+
+WebService::ClinicalTrialsdotGov - Wrapper around the clinicaltrials.gov API
 
 =head1 SYNOPSIS
 

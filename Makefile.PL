@@ -3,7 +3,7 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME                => 'Webservice::ClinicalTrialsdotGov',
+    NAME                => 'WebService::ClinicalTrialsdotGov',
     AUTHOR              => 'Spiros Denaxas <s.denaxas@gmail.com>',
     VERSION_FROM        => 'lib/WebService/ClinicalTrialsdotGov.pm',
     ABSTRACT_FROM       => 'lib/WebService/ClinicalTrialsdotGov.pm',

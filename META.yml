@@ -1,7 +1,7 @@
 --- #YAML:1.0
-name:               Webservice-ClinicalTrialsdotGov
-version:            0.01
-abstract:           ~
+name:               WebService-ClinicalTrialsdotGov
+version:            0.02
+abstract:           Wrapper around the clinicaltrials.gov API
 author:
     - Spiros Denaxas <s.denaxas@gmail.com>
 license:            perl
