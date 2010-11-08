@@ -10,7 +10,7 @@ use Data::Dumper;
 use WebService::ClinicalTrialsdotGov::Request;
 use WebService::ClinicalTrialsdotGov::Reply;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 my $RH_VALID_MODES = {
    'search'   => 1,
