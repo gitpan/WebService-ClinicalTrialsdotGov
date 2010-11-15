@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WebService-ClinicalTrialsdotGov
-version:            0.03
+version:            0.04
 abstract:           Wrapper around the clinicaltrials.gov API
 author:
     - Spiros Denaxas <s.denaxas@gmail.com>
@@ -11,13 +11,14 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Carp:            0
-    Clone:           0
-    HTTP::Request:   0
-    LWP::UserAgent:  0
-    Test::More:      0
-    URI:             0
-    XML::Simple:     0
+    Carp:             0
+    Class::Accessor:  0
+    Clone:            0
+    HTTP::Request:    0
+    LWP::UserAgent:   0
+    Test::More:       0
+    URI:              0
+    XML::Simple:      0
 no_index:
     directory:
         - t
